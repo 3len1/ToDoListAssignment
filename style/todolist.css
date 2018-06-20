@@ -1,0 +1,56 @@
+#counter {
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+}
+
+.tittle{
+    font-size: 26px;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 18px;
+    font-family: Georgia;
+    font-weight: inherit;
+    color: #373737;
+}
+
+.list{
+    display: inline-block;
+    padding:10px 35px 15px 35px;
+    background-image: url('../img/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+
+}
+.list.todo{
+    background-color: lightpink;
+}
+
+.list.done{
+    background-color: lightblue;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+}
+
+input[type=text], select {
+    padding: 10px 20px;;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px grey;
+}
